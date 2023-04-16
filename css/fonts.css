@@ -1,0 +1,11 @@
+@font-face {
+    font-family: mainFont;
+    src: url(/assets/fonts/OpenSans-Italic-VariableFont_wdth\,wght.ttf);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: secondFont;
+    src: url(/assets/fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+    font-display: swap;
+}
