@@ -1,11 +1,17 @@
 @font-face {
     font-family: mainFont;
-    src: url(/assets/fonts/OpenSans-Italic-VariableFont_wdth\,wght.ttf);
+    src: url(/assets/fonts/anuphan/Anuphan-VariableFont_wght.ttf);
     font-display: swap;
 }
 
 @font-face {
     font-family: secondFont;
-    src: url(/assets/fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+    src: url(/assets/fonts/openSans/OpenSans.ttf);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: tertiaryFont;
+    src: url(/assets/fonts/openSans/OpenSans-Italic.ttf);
     font-display: swap;
 }

@@ -6,7 +6,7 @@
 
 html,
 body {
-    font-family: mainFont;
+    font-family: secondFont;
     font-size: 18px;
     letter-spacing: 1px;
 }
@@ -19,18 +19,18 @@ a {
     text-decoration: none;
 }
 
-.container {
+/* .container {
     margin: 0 auto;
     padding: 40px 20px;
     max-width: 1550px;
-}
-.section-content {
+} */
+/* .section-content {
     display: flex;
     flex-direction: column;
     gap: 20px;
-}
+} */
 
-.section-header {
+/* .section-header {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
@@ -38,9 +38,9 @@ a {
     max-width: 620px;
     gap: 15px;
     text-align: center;
-}
+} */
 
-.section-header-description,
+/* .section-header-description,
 .section-header-label {
     color: var(--tertiary-dark-color);
 }
@@ -54,5 +54,5 @@ a {
     color: var(--primary-dark-color);
     font-weight: bold;
     font-size: 30px;
-}
+} */
 
