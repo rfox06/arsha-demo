@@ -228,7 +228,6 @@
 
 @media (min-width: 1024px) {
     
-    
     .bars-menu{
         display: none;
         margin-right: 0;
@@ -246,6 +245,8 @@
         text-align: right;
         border-radius: none;
         flex-direction: row;
+        width: 70%;
+        right: 50px;
         
     }
     .logo{
