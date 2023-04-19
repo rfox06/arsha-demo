@@ -180,28 +180,28 @@
     font-size: 14px;
 }
 .list-details .one{
-    background: #848484;
-    height: 14px;
+    background: #e0e3e9;
+    height: 10px;
     width: 100%;
 }
 .list-details .one .two{
     background: #37517e;
-    height: 14px;
+    height: 10px;
     width: 100%;
 }
 .list-details .one .two-a{
     background: #37517e;
-    height: 14px;
+    height: 10px;
     width: 90%;
 }
 .list-details .one .two-b{
     background: #37517e;
-    height: 14px;
+    height: 10px;
     width: 75%;
 }
 .list-details .one .two-c{
     background: #37517e;
-    height: 14px;
+    height: 10px;
     width: 55%;
 }
 .two-left img{
@@ -251,9 +251,10 @@
     .two-right{
         width: 50%;
     }
+    
 
     .content-about-second{
-        
+        margin: 80px 0;
         flex-direction: row;
     }
 }
