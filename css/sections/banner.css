@@ -5,6 +5,7 @@
     justify-content: center;
     text-align: center;
     padding: 60px 0;
+    min-width: 260px;
 }
 .section-banner{
     margin: 30px 0;
