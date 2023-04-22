@@ -6,7 +6,7 @@
 }
 .section-pricing{
     
-    width: 80%;
+    width: 90%;
     text-align: center;
 }
 .section-pricing h2{
@@ -14,17 +14,35 @@
     font-size: 32px;
     font-weight: bold;
     text-transform: uppercase;
-    margin-bottom: 20px;
-    padding-bottom: 20px;
+    margin-bottom: 15px;
+    
     position: relative;
     color: #37517e;
 }
+
+.section-pricing .line{
+    
+    margin: 0 auto;
+    width: 90px;
+    height:2px;
+    background:  #F3F5FA;
+    display: flex;
+}
+.section-pricing .line span{
+    margin: 0 auto;
+    height: 4px;
+    width: 40px;
+    background: #47b2e4;
+}
+
 .section-pricing p{
+    margin-top: 30px;
     font-size: 15px;
 }
 
 .container-pricing{
-    margin: 20px 9px;
+    
+    margin: 20px 0px;
     padding: 12px;
     display: flex;
     flex-wrap: wrap;
@@ -34,11 +52,16 @@
 
 .content-pricing{
     margin: 12px 10px;
-    box-shadow: 0 0 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     
     text-align: left;
-    padding: 12px 9px;
+    padding: 60px 40px;
+    border-top: 4px solid #fff;
     max-width: 320px;
+    border-radius: 5px;
+}
+.class{
+    border-top: 4px solid #47b2e4;
 }
 .content-pricing span{
     font-weight: 500;
@@ -87,6 +110,10 @@
     font-size: 16px;
     font-weight: 500;
     border: 1px solid #47b2e4;
+}
+.description-pricing a:hover{
+    background: #47b2e4;
+    color: #fff;
 }
 .description-pricing .button-special{
     background: #47b2e4;

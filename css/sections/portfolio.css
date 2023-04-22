@@ -1,5 +1,5 @@
 .portfolio {
-    
+    margin-top: 40px;
     min-width: 260px;
     display: flex;
     align-items: center;
@@ -23,17 +23,36 @@
     position: relative;
     color: #37517e;
 }
+.section-portfolio .line{
+    
+    margin: 0 auto;
+    width: 90px;
+    height:2px;
+    background:  #F3F5FA;
+    display: flex;
+}
+.section-portfolio .line span{
+    margin: 0 auto;
+    height: 4px;
+    width: 40px;
+    background: #47b2e4;
+}
+
 .section-portfolio  p{
+    
     font-size: 15px;
     color: var(--primary-dark-color);
+    margin-top: 20px;
+   
 }
 .section-portfolio ul{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    margin-top: 10px;
 }
 .section-portfolio ul li{
-    margin: 10px 10px;
+    margin: 16px 10px;
 
     cursor: pointer;
     

@@ -1,16 +1,22 @@
 .banner{
-    background: #3D4D6A;
+    
+    background-image: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url(/assets/images/cta-bg.jpg) ;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center; 
+    opacity: 1;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 60px 0;
+    padding: 70px 0;
     min-width: 260px;
 }
+
 .section-banner{
+    
     margin: 30px 0;
     width: 90%;
-    
 }
 .banner-content h3{
     color: #fff;

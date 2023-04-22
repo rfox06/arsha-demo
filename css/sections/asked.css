@@ -1,5 +1,5 @@
 .asked{
-    background: #edf2ff;
+    background: #f3f5fa;
     display: flex;
     justify-content: center;
     min-width: 260px;
@@ -18,12 +18,27 @@
     font-size: 32px;
     font-weight: bold;
     text-transform: uppercase;
-    margin-bottom: 20px;
-    padding-bottom: 20px ;
+    margin-bottom: 15px;
+    
     margin-top: 40px;
     color: #37517e;
 }
+.section-asked .line{
+    
+    margin: 0 auto;
+    width: 90px;
+    height:2px;
+    background:  #F3F5FA;
+    display: flex;
+}
+.section-asked .line span{
+    margin: 0 auto;
+    height: 4px;
+    width: 40px;
+    background: #47b2e4;
+}
 .section-asked p{
+    margin-top: 30px;
     font-size: 16px;
 }
 
@@ -36,10 +51,15 @@
     max-width: 860px;
 }
 .content-asked li{
-    box-shadow: 0 0 12px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 20px;
     background: #fff;
-    padding: 10px 8px;
+    border-radius: 4px;
     font-size: 14px;
     margin: 12px 0;
-    color: var(--secondary-dark-color);
+    
+}
+.content-asked li a{
+    color: #37517e;
+    font-weight: 700;
 }

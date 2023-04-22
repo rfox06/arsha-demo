@@ -5,18 +5,19 @@
     justify-content: center;
     padding: 40px 0 30px 0;
     min-width: 260px;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 .team h2 {
     font-size: 32px;
     font-weight: bold;
     text-transform: uppercase;
-    margin-bottom: 20px;
-    padding-bottom: 20px ;
-    
+    margin-bottom: 15px;
+   
     color: #37517e;
 }
+
 .team  p{
+    margin-top: 30px;
     font-size: 16px;
 }
 .section-team{
@@ -24,6 +25,22 @@
     width: 90%;
     
 }
+
+.section-team .line{
+    
+    margin: 0 auto;
+    width: 90px;
+    height:2px;
+    background:  #F3F5FA;
+    display: flex;
+}
+.section-team .line span{
+    margin: 0 auto;
+    height: 4px;
+    width: 40px;
+    background: #47b2e4;
+}
+
 .container-team{
     display: flex;
     justify-content: center;
@@ -36,9 +53,8 @@
     display: flex;
     margin: 20px 10px;
     background: var(--primary-light-color);
-    padding: 15px 12px ;
-    box-shadow: 0 0 13px;
-    
+    padding: 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border-radius: 5px;
     max-width: 500px;
     /* max-height: 220px; */
@@ -46,9 +62,9 @@
     transition: 0.5s;
 }
 .content-team .img-user{
-    border-radius: 50px;
-    width: 100px;
-    height: 100px;
+    border-radius: 75px;
+    width: 150px;
+    height: 150px;
     object-fit: contain;
     
     
@@ -86,10 +102,17 @@
     height: 24px;
     text-align: center;
     border-radius: 12px;
+    cursor: pointer;
+    
+}
+.description-team ul li:hover{
+    background: #47b2e4;
 }
 .description-team ul li img{
-    width: 16px;
-    height: 16px;
+    width: 14px;
+    height: 14px;
+    font-size: 5px;
+    margin: 0 2px;
     
     
 }
