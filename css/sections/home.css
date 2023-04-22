@@ -121,6 +121,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    
 }
 .description-header .content-description {
     
@@ -128,6 +129,7 @@
 }
 
 .description-header img{
+    
     margin-top: 90px;
     width: 80%;
     object-fit: contain;
@@ -177,9 +179,7 @@
 }
 
 .brands {
-    
-    background-color: #525252;
-    
+    background-color: #F3F5FA;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -194,7 +194,7 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    
+    height: 100px;
 }
 
 .brands img{
@@ -237,8 +237,6 @@
     }
     
     .nav-menu{
-        
-
         position: relative; 
         height: 100px;
         top: 0;
@@ -267,12 +265,15 @@
    
 
     .description-header{
+        
+        width: 90%;
         flex-direction: row-reverse;
+        justify-content: space-between;
        
     }
     .content-description{
         
-        width: 40%;
+        width: 50%;
         margin: 100px 20px 50px 0;
     }
 

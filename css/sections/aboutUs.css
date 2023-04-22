@@ -8,15 +8,34 @@
     
     padding: 30px 10px  ;
 }
+
+.title{
+    margin-bottom: 40px;
+}
 .title h2{
     font-size: 32px;
     font-weight: bold;
     text-transform: uppercase;
-    margin-bottom: 20px;
-    padding-bottom: 20px;
+    margin-bottom: 13px;
     position: relative;
     color: #37517e;
+    
 }
+.title .line{
+    
+    margin: 0 auto;
+    width: 90px;
+    height:2px;
+    background:  #F3F5FA;
+    display: flex;
+}
+.title .line span{
+    margin: 0 auto;
+    height: 4px;
+    width: 30px;
+    background: #47b2e4;
+}
+
 .content-about{
     background: var(--primary-light-color);
     width: 90%;
