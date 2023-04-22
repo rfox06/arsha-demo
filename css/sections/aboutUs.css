@@ -38,6 +38,7 @@
 
 .content-about{
     background: var(--primary-light-color);
+    
     width: 90%;
 }
 .content-left p{
@@ -85,20 +86,23 @@
 /**/
 .content-one{
     background: #f3f5fa;;
+    
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     min-width: 260px;
     
+    
 }
 .content-about-two{
-    width: 90%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column-reverse;
     margin: 60px 0;
+    
 }
 .one-left{
     width: 100%;
@@ -252,7 +256,7 @@
         width: 45%;
     }
     .content-about-two{
-        width: 80%;
+        padding: 0 200px;
         flex-direction: row;
         
     }
