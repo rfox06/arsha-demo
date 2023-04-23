@@ -33,7 +33,7 @@
     border-radius: 30px;
     border: none;
     padding: 4px 8px;
-    width: calc(40% - 100px);
+    width: calc(60% - 100px);
 }
 .search button{
     border: none;
@@ -46,7 +46,11 @@
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
-
+@media (min-width: 1024px) {
+    .join-our .search input{
+        width: calc(40% - 100px);
+    }
+}
 
 
 
