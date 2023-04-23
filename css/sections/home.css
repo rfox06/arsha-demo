@@ -241,6 +241,7 @@
         height: 100px;
         top: 0;
         background: var(--secondary-dark-color);
+      
         transition: none;
         text-align: right;
         border-radius: none;
